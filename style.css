@@ -1,0 +1,68 @@
+:root {
+    --primary: midnightblue
+}
+
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+figure {
+    margin: 16px auto;
+    position: relative;
+    max-width: 800px;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 2px 0px 10px #ccc;
+    display: block;
+    margin-bottom: 16px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+li {
+    padding: 8px;
+    list-style-position: inside;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    background-color: var(--primary);
+    color: white;
+}
+
+footer>span {
+    font-weight: bold;
+}
